@@ -1,0 +1,216 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+      <meta name="generator" content="Hugo 0.88.1">
+      <title>Websites</title>
+
+      <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+
+
+
+      <!-- Bootstrap core CSS -->
+    <link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+      <style>
+        @media (min-width: 768px) {
+          .snip1577 {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            margin: 10px;
+            min-width: 230px;
+            max-width: 330px;
+            width: 100%;
+            color: #fff;
+            text-align: left;
+            font-size: 16px;
+            background: #000;
+          }
+        }
+        body{
+          background: rgb(18,58,87);
+          background: linear-gradient(0deg, rgba(18,58,87,1) 32%, rgba(25,169,198,1) 83%, rgba(205,234,255,1) 100%);
+        }
+      .snip1577 {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        margin: 10px;
+        min-width: 230px;
+        max-width: 408px;
+        width: 100%;
+        color: #fff;
+        text-align: left;
+        font-size: 16px;
+        background: #123a57;
+      }
+
+      .snip1577 *,
+      .snip1577:before,
+      .snip1577:after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+      }
+
+      .snip1577 img {
+        max-width: 100%;
+        backface-visibility: hidden;
+        vertical-align: top;
+      }
+
+      .snip1577:before,
+      .snip1577:after {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        content: '';
+        background-color: #fff;
+        z-index: 1;
+        opacity: 0;
+      }
+
+      .snip1577:before {
+        width: 0;
+        height: 1px;
+      }
+
+      .snip1577:after {
+        height: 0;
+        width: 1px;
+      }
+
+      .snip1577 figcaption {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 15px 20px;
+      }
+
+      .snip1577 h3,
+      .snip1577 h4 {
+        margin: 0;
+        font-size: 1.1em;
+        font-weight: normal;
+        opacity: 0;
+      }
+
+      .snip1577 h4 {
+        font-size: .8em;
+        text-transform: uppercase;
+      }
+
+      .snip1577 a {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+      }
+
+      .snip1577:hover img,
+      .snip1577.hover img {
+        zoom: 1;
+        filter: alpha(opacity=20);
+        -webkit-opacity: 0.2;
+        opacity: 0.2;
+      }
+
+      .snip1577:hover:before,
+      .snip1577.hover:before,
+      .snip1577:hover:after,
+      .snip1577.hover:after {
+        opacity: 1;
+        -webkit-transition-delay: 0.25s;
+        transition-delay: 0.25s;
+      }
+
+      .snip1577:hover:before,
+      .snip1577.hover:before {
+        width: 40px;
+      }
+
+      .snip1577:hover:after,
+      .snip1577.hover:after {
+        height: 40px;
+      }
+
+      .snip1577:hover h3,
+      .snip1577.hover h3,
+      .snip1577:hover h4,
+      .snip1577.hover h4 {
+        opacity: 1;
+      }
+
+      .snip1577:hover h3,
+      .snip1577.hover h3 {
+        -webkit-transition-delay: 0.3s;
+        transition-delay: 0.3s;
+      }
+
+      .snip1577:hover h4,
+      .snip1577.hover h4 {
+        -webkit-transition-delay: 0.35s;
+        transition-delay: 0.35s;
+      }
+    </style>
+
+    </head>
+    <body>
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="text-white">Websites</h1>
+            <p class="text-center text-white">These Websites I designed in different program languages, and according to the requirements of the clients</p>
+          </div>
+        </div>
+      </section>
+      <figure class="snip1577"> <img class="img-fluid" src="{% static 'assets/images/fahadwec.png' %}" alt="Fahad web" />
+        <figcaption>
+          <h3>Fahad website</h3>
+          <h4>Wordpress</h4>
+        </figcaption>
+        <a href="#"></a>
+      </figure>
+      <figure class="snip1577"><img class="img-fluid" src="{% static 'assets/images/beautyweb.png' %}" alt="Beauty WebApp" />
+        <figcaption>
+          <h3>Beauty WebApp</h3>
+          <h4>React js</h4>
+        </figcaption>
+        <a href="#"></a>
+      </figure>
+      <figure class="snip1577"><img src="{% static 'assets/images/besmartweb.png' %}" alt="BeSmart web" />
+        <figcaption>
+          <h3>BeSmart Website</h3>
+          <h4>Wordpress</h4>
+        </figcaption>
+        <a href="#"></a>
+      </figure>
+<script>
+  /* Demo purposes only */
+$(".hover").mouseleave(
+  function() {
+    $(this).removeClass("hover");
+  }
+);
+</script>
+   </body>
+  </html>
+
+ {% endblock %}
